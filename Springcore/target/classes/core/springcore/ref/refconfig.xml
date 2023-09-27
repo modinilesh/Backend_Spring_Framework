@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd">
+		
+		<!-- as A object is dependent on B so we need to define B first -->
+		<bean class="core.springcore.ref.B" name="bref">
+			<property name="x" value="50" />
+		</bean>
+		
+		
+		<!-- Now creating bean for A  -->
+		<!-- Method 1
+		<bean class="core.springcore.ref.A" name="aref">
+			<property name="y" value="90" />
+			<property name="ob">
+				<ref bean="bref" />
+			</property>
+		</bean>
+		-->
+		<!-- Method 2
+		<bean class="core.springcore.ref.A" name="aref">
+			<property name="y" value="90" />
+			<property name="ob" ref="bref" />
+		</bean>
+		-->
+		<!-- Method 3 -->
+		<bean class="core.springcore.ref.A" name="aref" p:y="90" p:ob-ref="bref"  />
+		
+		
+</beans>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd">
+		
+		<bean class="core.springcore.Collections.Emp" name="emp1">
+			<property name="name" value="Nilesh Modi"/>
+			<property name="phones">
+				<list>
+					<value>8319341504</value>
+					<value>7372931740</value>
+				</list>
+			</property>	
+			<property name="addresses">
+				<set>
+					<value>Shajapur</value>
+					<value>Indore</value>
+					<value>Kota</value>
+				</set>
+			</property>	
+			<property name="courses">
+				<map>
+					<entry key="101" value="Operating System"/>
+					<entry key="102" value="Data Structures and Algorithms"/>
+				</map>
+			</property>
+		</bean>
+		
+		
+</beans>

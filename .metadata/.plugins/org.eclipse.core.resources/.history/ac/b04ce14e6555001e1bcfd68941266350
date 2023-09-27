@@ -1,0 +1,84 @@
+package com.spring.orm;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.spring.orm.dao.StudentDao;
+import java.util.*;
+
+public class SpringOrmProject {
+
+	public static void main(String[] args) {
+
+		ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
+		StudentDao studentDao = context.getBean("studentDao", StudentDao.class);
+
+		System.out.println("*************Welcome to my Spring ORM Project*************");
+
+		// To take input
+		Scanner sc = new Scanner(System.in);
+
+		// to run the loop
+		boolean flag = true;
+
+		while (flag) {
+
+			try {
+
+				// guides
+				System.out.println("PRESS 1 for Adding a new Student");
+				System.out.println("PRESS 2 for Display all students");
+				System.out.println("PRESS 3 for Get details of single student");
+				System.out.println("PRESS 4 for Delete Student");
+				System.out.println("PRESS 5 for Update student");
+				System.out.println("PRESS 6 for Exit");
+
+				// Take input as integer
+				int input = sc.nextInt();
+
+				// switch-case
+				switch (input) {
+				case 1:
+					// Adding student
+
+					break;
+
+				case 2:
+					// Display all
+					break;
+
+				case 3:
+					// display single
+					break;
+
+				case 4:
+					// Delete student
+					break;
+
+				case 5:
+					// Update student
+					break;
+
+				case 6:
+					// Exit
+					flag = false;
+					break;
+					
+				default :
+					System.out.println("Invalid Input..........");
+					System.out.println("Please try with valid input.");
+					break;
+
+				}
+
+			} catch (Exception e) {
+				System.out.println("Invalid data..........");
+				System.out.println("Please try with valid data.");
+				System.out.println(e.getMessage());
+			}
+
+		}
+
+	}
+
+}
