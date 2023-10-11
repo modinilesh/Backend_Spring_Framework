@@ -5445,3 +5445,21 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2023-09-17 22:17:09,435 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NI20359531\Desktop\MyCodes\eclipse-workspace\springorm\src\main\resources
 2023-09-17 22:17:09,446 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-09-17 22:17:09,447 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NI20359531\Desktop\MyCodes\eclipse-workspace\springorm\src\test\resources
+2023-10-05 09:59:54,720 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-10-05 09:59:58,456 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-05 09:59:58,460 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NI20359531\Desktop\MyCodes\eclipse-workspace\Springcore\src\main\resources
+2023-10-05 09:59:58,464 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-05 09:59:58,465 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NI20359531\Desktop\MyCodes\eclipse-workspace\Springcore\src\test\resources
+2023-10-05 10:00:01,159 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-05 10:00:01,160 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NI20359531\Desktop\MyCodes\eclipse-workspace\selenium\src\main\resources
+2023-10-05 10:00:01,165 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-05 10:00:01,166 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NI20359531\Desktop\MyCodes\eclipse-workspace\selenium\src\test\resources
+2023-10-05 10:00:02,051 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-05 10:00:02,052 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NI20359531\Desktop\MyCodes\eclipse-workspace\springjdbc\src\main\resources
+2023-10-05 10:00:02,056 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-05 10:00:02,056 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NI20359531\Desktop\MyCodes\eclipse-workspace\springjdbc\src\test\resources
+2023-10-05 10:00:03,097 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-05 10:00:03,097 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NI20359531\Desktop\MyCodes\eclipse-workspace\springorm\src\main\resources
+2023-10-05 10:00:03,101 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-05 10:00:03,102 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\NI20359531\Desktop\MyCodes\eclipse-workspace\springorm\src\test\resources
+2023-10-05 10:04:15,929 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

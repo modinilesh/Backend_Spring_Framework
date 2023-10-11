@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\NI20359531\Desktop\MyCodes\eclipse-workspace\SpringMVC"/>
 			<item value="C:\Users\NI20359531\Desktop\MyCodes\eclipse-workspace\Springcore\src\main\java\core\springcore\auto\wire\autowireconfig.xml"/>
 			<item value="C:\Users\NI20359531\eclipse-workspace\springjdbc"/>
 			<item value="C:\Users\NI20359531\eclipse-workspace\Springcore\src\main\java\core\springcore\javaconfig\Test.java"/>
@@ -28,16 +29,19 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.spring.mvc"/>
 			<item value="com.selenium.selenium"/>
 			<item value="com.spring.orm"/>
 			<item value="com.spring.jdbc"/>
 		</list>
 		<list key="groupId">
+			<item value="com.spring.mvc"/>
 			<item value="com.selenium"/>
 			<item value="com.spring.orm"/>
 			<item value="com.spring.jdbc"/>
 		</list>
 		<list key="artifactId">
+			<item value="springmvc"/>
 			<item value="selenium"/>
 			<item value="springorm"/>
 			<item value="springjdbc"/>
